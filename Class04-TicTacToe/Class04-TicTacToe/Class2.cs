@@ -56,6 +56,7 @@ namespace Class04_TicTacToe
 			else
 			{
 				Console.WriteLine("This space is already occupied");
+				TakeTurn(board);
 			}
 		}
 	}
